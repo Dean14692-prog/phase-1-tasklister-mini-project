@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const taskText = taskInput.value.trim();
 
     // Ensure input is not empty
-    //
+  
     if (taskText === "") return;
 
     // Create a new list item
