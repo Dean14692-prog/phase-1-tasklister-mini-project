@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Get task input value
     const taskInput = document.getElementById("new-task-description");
     const taskText = taskInput.value.trim();
-
-    // Ensure input is not empty
   
     if (taskText === "") return;
 
